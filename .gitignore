@@ -1,0 +1,9 @@
+# IntelliJ files
+.idea/
+*.iml
+
+# Maven build dir
+target/
+
+# Exclude specific tsv files so we don't share company data with the public domain
+*.tsv

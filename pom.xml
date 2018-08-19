@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>de.cofinpro.ui.acsd</groupId>
+    <artifactId>acsd-dependency-graph-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>acsd-dependency-graph-neo4j-spring-store</module>
+        <module>acsd-dependency-graph-neo4j-spring-webapp</module>
+        <module>acsd-dependency-graph-neo4j-spring-shared</module>
+    </modules>
+
+
+</project>
